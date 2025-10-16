@@ -4,6 +4,7 @@ pytest==8.4.2
 pytest-repeat==0.9.4
 pytest-rerunfailures==16.0.1
 pytest-xdist == 3.8.0
+allure-pytest == 2.15.0
 
 # dev
 black==25.1.0
