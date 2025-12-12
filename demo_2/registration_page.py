@@ -24,7 +24,7 @@ class RegistrationPage(BasePage):
     CONTINUE = (By.CSS_SELECTOR, '[value="Continue"]')
 
     CONTENT = (By.ID, 'content')
-    TEXT_ACCOUNT_CREATED = (By.XPATH, '//*[text()="Your Account Has Been Created!"]')
+    TEXT_ACCOUNT_CREATED = (By.XPATH, '//h1[text()=" Your Account Has Been Created!"]')
 
     TEXT_ERROR_FIRST_NAME = (By.XPATH, '//*[text()="First Name must be between 1 and 32 characters!"]')
     ALERT_ERROR = (By.CSS_SELECTOR, '.alert-danger')

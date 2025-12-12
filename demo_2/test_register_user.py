@@ -7,6 +7,7 @@ from selenium import webdriver
 
 from demo_2.registration_page import User, RegistrationPage
 
+
 @pytest.fixture
 def driver():
     driver = webdriver.Chrome()
